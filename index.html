@@ -9,20 +9,20 @@
   <meta content="" name="description">
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="">
+  <meta property="og:title" content="Memento Restaurant & Lounge">
   <meta property="og:image" content="">
   <meta property="og:url" content="">
-  <meta property="og:site_name" content="">
-  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Memento Restaurant & Lounge">
+  <meta property="og:description" content="Exquisite dining and lounge experience">
 
   <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="">
-  <meta name="twitter:title" content="">
-  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="Memento Restaurant & Lounge">
+  <meta name="twitter:description" content="Exquisite dining and lounge experience">
   <meta name="twitter:image" content="">
 
-  <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
+  <!-- Favicon -->
   <link href="favicon.ico" rel="shortcut icon">
 
   <!-- Google Fonts -->
@@ -38,15 +38,12 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- Font Awesome Icons for the Restaurant-->
+  <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-  <!-- =======================================================
-    Theme Name: Memento Restaurant & Lounge
-    Theme URL: https://bootstrapmade.com/imperial-free-onepage-bootstrap-theme/
-    Author: Mellamby Ileogben
-    Author URL: papamell@yahoo.com
-  ======================================================= -->
+  <!-- Theme Information -->
+  <meta name="theme-name" content="Memento Restaurant & Lounge">
+  <meta name="author" content="Mellamby Ileogben">
 </head>
 
 <body>
@@ -59,7 +56,7 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="img/memento.png" alt="Memento">
+          <img src="img/memento.png" alt="Memento Logo">
         </div>
 
         <h1>Welcome to Memento Restaurant & Lounge</h1>
@@ -77,11 +74,11 @@
   ============================-->
   <header id="header">
     <div class="container">
-
       <div id="logo" class="pull-left">
-        <a href="#menu"><img src="img/memento.png" alt="" title="Memento"/></img></a>
-        <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">Header 1</a></h1>-->
+        <a href="#hero"><img src="img/memento.png" alt="Memento Logo"></a>
+      </div>
+      <div id="mobile-nav-toggle">
+        <i class="fa fa-bars"></i>
       </div>
 
       <nav id="nav-menu-container">
@@ -92,10 +89,10 @@
           <li><a href="#menu">Menu</a></li>
           <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="menu-has-children"><a href="">Drop Down</a>
+          <li class="menu-has-children"><a href="#hero">Drop Down</a>
             <ul>
               <li><a href="#about">Drop Down 1</a></li>
-              <li class="menu-has-children"><a href="#">Drop Down 2</a>
+              <li class="menu-has-children"><a href="#testimonials">Drop Down 2</a>
                 <ul>
                   <li><a href="#services">Exquisite Fine Dining</a></li>
                   <li><a href="#services">Family-Friends Casual Dining</a></li>
@@ -113,10 +110,30 @@
           <li><a href="#contact">Contact Us</a></li>
         </ul>
       </nav>
-      <!-- #nav-menu-container -->
     </div>
+
+    <div id="mobile-nav">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#team">Team</a></li>
+        <li class="menu-has-children"><a href="#">Drop Down</a>
+          <ul>
+            <li><a href="#about">Drop Down 1</a></li>
+            <li><a href="#menu">Lively Night Club</a></li>
+            <li><a href="#menu">Upscale Cocktail Lounge</a></li>
+            <li><a href="#menu">Relaxed Wine Bar</a></li>
+            <li><a href="#menu">Sports Bar</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div id="mobile-body-overly"></div>
   </header>
-  <!-- #header -->
 
   <!--==========================
   About Section
@@ -152,6 +169,10 @@
             ready to be devoured as soon as your orders are placed. 
           </p>
         </div>
+        <div class="col-md-6 col-md-pull-6 about-img">
+          <!-- Add your about image here -->
+          <img src="img/about-img.jpg" alt="About Memento Restaurant" class="img-responsive">
+        </div>
       </div>
     </div>
   </section>
@@ -172,38 +193,38 @@
       <div class="row">
         <div class="col-md-4 service-item">
           <div class="service-icon"><i class="fa fa-utensils"></i></div>
-          <h4 class="service-title"><a href="">Exquisite Fine Dining</a></h4>
+          <h4 class="service-title"><a href="#">Exquisite Fine Dining</a></h4>
           <p class="service-description">Come and have a taste of an exquisite culinary journey at Memento Restaurant & Lounge. Our meticulously crafted menu, featuring seasonal 
             ingredients and innovative techniques, will leave you satiated and delighted. It promises an unforgettable dining experience. Paired with our refined ambiance and impeccable service, 
             we create moments of pure gastronomic delight. Join us for an evening of sophistication and culinary artistry.</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-football"></i></div>
-          <h4 class="service-title"><a href="">Sports Bar</a></h4>
+          <div class="service-icon"><i class="fas fa-football-ball"></i></div>
+          <h4 class="service-title"><a href="#">Sports Bar</a></h4>
           <p class="service-description">Catch all the action at Memento Restaurant & Lounge. With multiple large screens, a lively atmosphere, and a wide selection of beers and pub fare, 
             we're the ultimate destination for sports fans. Cheer on your favorite team and enjoy a great time with friends.</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-wine-glass-alt"></i></div>
-          <h4 class="service-title"><a href="">Relaxed Wine Bar</a></h4>
+          <div class="service-icon"><i class="fas fa-wine-glass-alt"></i></div>
+          <h4 class="service-title"><a href="#">Relaxed Wine Bar</a></h4>
           <p class="service-description">Our curated selection of wines, craft beers, and light bites provides the perfect setting for a relaxing evening. 
             Enjoy our cozy atmosphere, live acoustic music, and friendly service. Unwind and savor the moment of Memento Restaurant & Lounge.</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-shipping-fast"></i></div>
-          <h4 class="service-title"><a href="">Delivery Services</a></h4>
+          <div class="service-icon"><i class="fas fa-shipping-fast"></i></div>
+          <h4 class="service-title"><a href="#">Delivery Services</a></h4>
           <p class="service-description">Experience the same exceptional quality of Memento Restaurant & Lounge at home. We carefully package your meals to maintain their flavor and 
             presentation, so you can enjoy a restaurant-quality experience without leaving your doorstep. Treat yourself to a gourmet meal delivered with care.</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-glass-cheers"></i></div>
-          <h4 class="service-title"><a href="">Special Event/Theme Night</a></h4>
+          <div class="service-icon"><i class="fas fa-glass-cheers"></i></div>
+          <h4 class="service-title"><a href="#">Special Event/Theme Night</a></h4>
           <p class="service-description">Join us for our Valentine, Mother's Day, Karaoke, etc. night at Memento Restaurant & Lounge! Enjoy live music, themed cocktails, and a vibrant atmosphere. 
             It's going to be an unforgettable evening.</p>
         </div>
         <div class="col-md-4 service-item">
-          <div class="service-icon"><i class="fa fa-hamburger"></i></div>
-          <h4 class="service-title"><a href="">Quick and Delicious Lunch Spot</a></h4>
+          <div class="service-icon"><i class="fas fa-hamburger"></i></div>
+          <h4 class="service-title"><a href="#">Quick and Delicious Lunch Spot</a></h4>
           <p class="service-description">Fuel your day with a quick and delicious lunch at Memento Restaurant & Lounge. We offer a variety of fresh and flavorful options, prepared with speed and 
             care. From our signature sandwiches to our vibrant salads, we've got the perfect midday pick-me-up. Get in, get fed, and get back to your day.</p>
         </div>
@@ -212,7 +233,7 @@
   </section>
 
   <!--==========================
-  Subscrbe Section
+  Subscribe Section
   ============================-->
   <section id="subscribe">
     <div class="container wow fadeInUp">
@@ -222,7 +243,7 @@
           <p class="subscribe-text">Join our 2000+ subscribers and get access to the latest cuisines, freebies, loyalty programs, social media packges, and much more!</p>
         </div>
         <div class="col-md-4 subscribe-btn-container">
-          <a class="#contact" href="#contact">Subscribe Now</a>
+          <a class="subscribe-btn" href="#contact">Subscribe Now</a>
         </div>
       </div>
     </div>
@@ -242,15 +263,15 @@
       </div>
 
       <div class="row menu-gallery">
-        <div class="col-md-3 menu-item">
+        <div class="col-md-3 col-sm-6 menu-item">
           <div class="pic"><img src="img/Fast-food.jpg" alt="Fast-Food Dishes" class="img-fluid"></div>
-            <div class="details">
-              <h4>Menu 1</h4>
-              <span>Fast-Food Dishes</span>
-            </div>
+          <div class="details">
+            <h4>Menu 1</h4>
+            <span>Fast-Food Dishes</span>
+          </div>
         </div>
 
-        <div class="col-md-3 menu-item">
+        <div class="col-md-3 col-sm-6 menu-item">
           <div class="pic"><img src="img/continental_dishes.jpg" alt="Continental Dishes" class="img-fluid"></div>
           <div class="details">
             <h4>Menu 2</h4>
@@ -258,7 +279,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 menu-item">
+        <div class="col-md-3 col-sm-6 menu-item">
           <div class="pic"><img src="img/Traditional_soup.jpg" alt="Traditional Dishes" class="img-fluid"></div>
           <div class="details">
             <h4>Menu 3</h4>
@@ -266,46 +287,45 @@
           </div>
         </div>
 
-        <div class="col-md-3 menu-item">
-          <div class="pic"><img src="img/Pepper_soups.jpg" alt="African Pepper Soup"></div>
-            <div class="details">
-              <h4>Menu 4</h4>
-              <span>African Pepper Soup</span>
-            </div>
+        <div class="col-md-3 col-sm-6 menu-item">
+          <div class="pic"><img src="img/Pepper_soups.jpg" alt="African Pepper Soup" class="img-fluid"></div>
+          <div class="details">
+            <h4>Menu 4</h4>
+            <span>African Pepper Soup</span>
+          </div>
         </div>
 
-        <div class="col-md-3 menu-item">
-          <div class="pic"><img src="img/cocktails.jpg" alt="Refreshing Drinks & Cocktails"></div>
-            <div class="details">
-              <h4>Menu 5</h4>
-              <span>Refreshing Drinks & Cocktails</span>
-            </div>
+        <div class="col-md-3 col-sm-6 menu-item">
+          <div class="pic"><img src="img/cocktails.jpg" alt="Refreshing Drinks & Cocktails" class="img-fluid"></div>
+          <div class="details">
+            <h4>Menu 5</h4>
+            <span>Refreshing Drinks & Cocktails</span>
+          </div>
         </div>
 
-        <div class="col-md-3 menu-item">
-          <div class="pic"><img src="img/Sports-bar.jpg" alt="Lodging Area & Sports Bar"></div>
-            <div class="details">
-              <h4>Menu 6</h4>
-              <span>Lounging Area & Sports Bar</span>
-            </div>
+        <div class="col-md-3 col-sm-6 menu-item">
+          <div class="pic"><img src="img/Sports-bar.jpg" alt="Lodging Area & Sports Bar" class="img-fluid"></div>
+          <div class="details">
+            <h4>Menu 6</h4>
+            <span>Lounging Area & Sports Bar</span>
+          </div>
         </div>
 
-        <div class="col-md-3 menu-item">
-          <div class="pic"><img src="img/Family-food-lunch.jpg" alt="Sunday Family Lunch"></div>
-            <div class="details">
-              <h4>Menu 7</h4>
-              <span>Sunday Family Lunch</span>
-            </div>
+        <div class="col-md-3 col-sm-6 menu-item">
+          <div class="pic"><img src="img/Family-food-lunch.jpg" alt="Sunday Family Lunch" class="img-fluid"></div>
+          <div class="details">
+            <h4>Menu 7</h4>
+            <span>Sunday Family Lunch</span>
+          </div>
         </div>
 
-        <div class="col-md-3 menu-item">
-          <div class="pic"><img src="img/Get_together_events.jpg" alt="Location Space"></div>
-            <div class="details">
-              <h4>Location Space</h4>
-              <span>Bookings for Events & Conferences</span>
-            </div>
+        <div class="col-md-3 col-sm-6 menu-item">
+          <div class="pic"><img src="img/Get_together_events.jpg" alt="Location Space" class="img-fluid"></div>
+          <div class="details">
+            <h4>Location Space</h4>
+            <span>Bookings for Events & Conferences</span>
+          </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -326,18 +346,18 @@
       <div class="row">
         <div class="col-md-3">
           <div class="profile">
-            <div class="pic"><img src="img/Bolu.jpg" alt=""></div>
+            <div class="pic"><img src="img/Bolu.jpg" alt="Boluwatife Agboola"></div>
             <h4>Boluwatife Agboola</h4>
             <span>StanbicIBTC</span><br>
             <a href="mailto:agboolaiyadunnib@gmail.com"><i class="fa fa-envelope"></i></a>
-            <a href="https://www.instagram.com/bolu_pearl_" target="_blank" rel="noopener noreferrer" title="Instgram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/bolu_pearl_" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
         <div class="col-md-9">
           <div class="quote">
             <b><img src="img/quote_sign_left.png" alt=""></b>Memento Restaurant & Lounge has breathtaking views from the interior. 
             When I and my team went to eat there, one afternoon, the food was exquisite, and their services was top-notch. Trust me, 
-            I and my team will keep coming back to eat frequently. Keep it up!<img src="img/quote_sign_right.png" alt=""></small>
+            I and my team will keep coming back to eat frequently. Keep it up!<small><img src="img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
       </div>
@@ -351,14 +371,13 @@
         </div>
         <div class="col-md-3">
           <div class="profile">
-            <div class="pic"><img src="img/Osita.jpg" alt=""></div>
+            <div class="pic"><img src="img/Osita.jpg" alt="Osita P. Ihekaire"></div>
             <h4>Osita P. Ihekaire</h4>
             <span>EduVantage Company</span><br>
             <a href="mailto:osypaulihekaire@gmail.com"><i class="fa fa-envelope"></i></a>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -376,86 +395,60 @@
       </div>
 
       <div class="row">
-        <div class="col-md-3">
-            <div class="member">
-                <div class="pic"><img src="img/Aima.jpg" alt="Emmanuella A. Ileogben" width="400" height="300"></div>
-                <h4>Emmanuella A. Ileogben</h4>
-                <span>Chief Operating Officer</span>
-                <div class="social">
-                  <a href="https://www.instagram.com/b_aimalohi/?igsh=MWJxbHV3bHB6aTZsZw%3D%3D" target="_blank" rel="noopener noreferrer" title="Instagram">
-                      <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="https://www.facebook.com/emmanuella.ileogben.71" target="_blank" rel="noopener noreferrer" title="Facebook">
-                      <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="mailto:emmanuellaileogben@gmail.com" title="Email">
-                      <i class="fas fa-envelope"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/emmanuella-ileogben-13b024213/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                      <i class="fab fa-linkedin-in"></i>
-                  </a>
-              </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="member">
+            <div class="pic"><img src="img/Aima.jpg" alt="Emmanuella A. Ileogben" class="img-responsive"></div>
+            <h4>Emmanuella A. Ileogben</h4>
+            <span>Chief Operating Officer</span>
+            <div class="social">
+              <a href="https://www.instagram.com/b_aimalohi/?igsh=MWJxbHV3bHB6aTZsZw%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/emmanuella.ileogben.71" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+              <a href="mailto:emmanuellaileogben@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/emmanuella-ileogben-13b024213/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
             </div>
+          </div>
         </div>
-    
-        <div class="col-md-3">
-            <div class="member">
-                <div class="pic"><img src="img/Chijioke2.jpg" alt="" height="300" width="300"></div>
-                <h4>Chijioke K. Nwankwo</h4>
-                <span>IT/Advertsing Manager</span>
-                <div class="social">
-                  <a href="https://www.facebook.com/chijiokenwankwo" target="_blank" rel="noopener noreferrer" title="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                    <a href="mailto:chijioken15@gmail.com"><i class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/chijioke-nwankwo-a3ba57238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                      <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-md-3">
-            <div class="member">
-                <div class="pic"><img src="img/Leo.jpg" alt="" height="200" width="200"></div>
-                <h4>Emmanuel Aidelokhai Ileogben</h4>
-                <span>Culinary Chef</span>
-                <div class="social">
-                  <a href="https://www.twitter.com/_leothegreat_" target="_blank" rel="noopener noreferrer" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                    </a>  
-                    <a href="mailto:aidelokhaiileogben@gmail.com"><i class="fa fa-envelope"></i></a>
-                    <a href="https://www.instagram.com/leothegr8._" target="_blank" rel="noopener noreferrer" title="Instagram">
-                      <i class="fab fa-instagram"></i>
-                      </a>
-                    <a href="https://www.linkedin.com/in/emmanuelaidelokhaiileogben" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-md-3">
-            <div class="member">
-                <div class="pic"><img src="img/Alice2.jpg" alt="" width="400" height="300"></div>
-                <h4>Alice Akogwu</h4>
-                <span>Production Manager</span>
-                <div class="social">
-                  <a href="https://www.instagram.com/enayi_a" target="_blank" rel="noopener noreferrer" title="Instagram">
-                    <i class="fab fa-instagram"></i> 
-                    </a>
-                    <a href="https://www.facebook.com/aliceenayi" target="_blank" rel="noopener noreferrer" title="Facebook">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="mailto:eaakogwu@gmail.com"><i class="fa fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/alice-akogwu-677556195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                      <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
 
+        <div class="col-md-3 col-sm-6">
+          <div class="member">
+            <div class="pic"><img src="img/Chijioke2.jpg" alt="Chijioke K. Nwankwo" class="img-responsive"></div>
+            <h4>Chijioke K. Nwankwo</h4>
+            <span>IT/Advertising Manager</span>
+            <div class="social">
+              <a href="https://www.facebook.com/chijiokenwankwo" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+              <a href="mailto:chijioken15@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/chijioke-nwankwo-a3ba57238" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="member">
+            <div class="pic"><img src="img/Leo.jpg" alt="Emmanuel Aidelokhai Ileogben" class="img-responsive"></div>
+            <h4>Emmanuel Aidelokhai Ileogben</h4>
+            <span>Culinary Chef</span>
+            <div class="social">
+              <a href="https://www.twitter.com/_leothegreat_" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+              <a href="mailto:aidelokhaiileogben@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.instagram.com/leothegr8._" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/emmanuelaidelokhaiileogben" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="member">
+            <div class="pic"><img src="img/Alice2.jpg" alt="Alice Akogwu" class="img-responsive"></div>
+            <h4>Alice Akogwu</h4>
+            <span>Production Manager</span>
+            <div class="social">
+              <a href="https://www.instagram.com/enayi_a" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/aliceenayi" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+              <a href="mailto:eaakogwu@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/alice-akogwu-677556195" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -493,10 +486,9 @@
 
             <div>
               <i class="fa fa-phone"></i>
-              <p>+2348033074310;<br>
+              <p>+2348033074310<br>
                  +2348114304611</p>
             </div>
-
           </div>
         </div>
 
@@ -506,15 +498,15 @@
             <div id="errormessage"></div>
             <form action="" method="post" role="form" class="contactForm">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
                 <div class="validation"></div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                 <div class="validation"></div>
               </div>
               <div class="form-group">
@@ -525,14 +517,13 @@
             </form>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
   <!--==========================
   Footer
-============================-->
+  ============================-->
   <footer id="footer">
     <div class="container">
       <div class="row">
@@ -541,21 +532,14 @@
             &copy; Copyright <strong>Memento Restaurant & Lounge</strong>. All Rights Reserved
           </div>
           <div class="credits">
-            <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
-            -->
-            Aima Designs Limited by <a href="www.aimalohiileogben@gmail.com">AimaVentures</a>
+            Designed by <a href="mailto:aimalohiileogben@gmail.com">AimaVentures</a>
           </div>
         </div>
       </div>
     </div>
   </footer>
-  <!-- #footer -->
 
-  <a href="index.html" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Required JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
@@ -567,12 +551,43 @@
   <script src="lib/stickyjs/sticky.js"></script>
   <script src="lib/easing/easing.js"></script>
 
-  <!-- Template Specisifc Custom Javascript File -->
+  <!-- Template Specific Custom Javascript File -->
   <script src="js/custom.js"></script>
 
   <script src="contactform/contactform.js"></script>
 
-
+  <script>
+    $(document).ready(function(){
+      // Mobile Navigation
+      if ($('#nav-menu-container').length) {
+        var $mobile_nav = $('#nav-menu-container').clone().prop({
+          id: 'mobile-nav'
+        });
+        $mobile_nav.find('> ul').attr({
+          'class': '',
+          'id': ''
+        });
+        $('body').append($mobile_nav);
+        $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>');
+        $('body').append('<div id="mobile-body-overly"></div>');
+        
+        $(document).on('click', '#mobile-nav-toggle', function(e) {
+          $('body').toggleClass('mobile-nav-active');
+          $('#mobile-body-overly').toggle();
+          $('html').css('overflow', 
+            $('body').hasClass('mobile-nav-active') ? 'hidden' : 'auto');
+          $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+          e.preventDefault();
+        });
+        
+        $(document).on('click', '#mobile-nav ul li a', function(e) {
+          $('body').removeClass('mobile-nav-active');
+          $('#mobile-body-overly').hide();
+          $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+          $('html').css('overflow', 'auto');
+        });
+      }
+    });
+  </script>
 </body>
-
 </html>
